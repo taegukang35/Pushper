@@ -3,11 +3,11 @@ import processing.serial.*;
 // Set the necessary variables.
 Serial myPort;
 String val = "0";
-int count = 0;
-int state = 1;
-int pstate = 0;
-float distance=100;
-int std = 25;
+int count = 0; // 
+int state = 1; // current status: up(1), down(1)
+int pstate = 0; // previous status
+float distance=100;  
+int std = 25; // state reference distance 
 int rest_time = 25;
 
 void setup()
