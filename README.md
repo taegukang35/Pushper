@@ -1,2 +1,2 @@
 # Pushper
-This is an Arduino project that helps Push Up
+PUSHPER informs you of incorrect posture and provides an exercise routine to help push-up.
